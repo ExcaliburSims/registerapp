@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ heading, paragraph, linkName, linkUrl = "#" }) => {
   return (
-    <div className="mb-10">
+    <div className="mb-5">
       <div className="flex justify-center">
         <img
           alt=""

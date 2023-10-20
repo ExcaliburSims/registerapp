@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import Header from "../composants/Header";
+import Login from "../composants/Login";
 
-const Login = () => {
+const LoginPage = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <>
+      <Header
+        heading="Login to your account"
+        paragraph="Don't have an account yet? "
+        linkName="Signup"
+        linkUrl="/signup"
+      />
+      <Login />
+    </>
+  );
+};
 
-export default Login
+export default LoginPage;
